@@ -58,6 +58,7 @@ class MainDataAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
             country_name.text = item.country
             total_confirmed.text = item.totalConfirmed.toString()
             total_death.text = item.totalDeaths.toString()
+            total_recovered.text = item.totalRecovered.toString()
         }
     }
 

@@ -2,7 +2,7 @@ package aish.android.mvisample.repository
 
 import aish.android.mvisample.api.RetrofitBuilder
 import aish.android.mvisample.model.Summary
-import aish.android.mvisample.ui.state.CovidDataViewState
+import aish.android.mvisample.ui.main.state.CovidDataViewState
 import aish.android.mvisample.util.ApiSuccessResponse
 import aish.android.mvisample.util.DataState
 import aish.android.mvisample.util.GenericApiResponse

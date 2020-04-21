@@ -20,7 +20,7 @@
 
         <TextView
             android:id="@+id/country_name"
-            style="@style/normal_text"
+            style="@style/header_text"
             tools:text= "Name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -84,6 +84,34 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toEndOf="@id/total_death_text"
             app:layout_constraintTop_toBottomOf="@id/total_confirmed" />
+
+        <TextView
+            android:id="@+id/total_recovered_text"
+            style="@style/normal_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            tools:text= "Total Recovered"
+            android:text="Total Recovered"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/total_death_text" />
+
+        <TextView
+            android:id="@+id/total_recovered"
+            style="@style/normal_text"
+            tools:text= "0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@id/total_recovered_text"
+            app:layout_constraintTop_toBottomOf="@id/total_death" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

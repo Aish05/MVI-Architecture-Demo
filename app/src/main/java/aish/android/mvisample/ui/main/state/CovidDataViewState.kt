@@ -1,4 +1,4 @@
-package aish.android.mvisample.ui.state
+package aish.android.mvisample.ui.main.state
 
 import aish.android.mvisample.model.Summary
 

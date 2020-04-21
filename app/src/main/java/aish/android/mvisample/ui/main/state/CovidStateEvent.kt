@@ -1,4 +1,4 @@
-package aish.android.mvisample.ui.state
+package aish.android.mvisample.ui.main.state
 
 sealed class CovidStateEvent  {
 

@@ -1,9 +1,9 @@
 package aish.android.mvisample.viewmodel
 
-import aish.android.mvisample.ui.state.CovidDataViewState
+import aish.android.mvisample.ui.main.state.CovidDataViewState
 import aish.android.mvisample.model.Summary
 import aish.android.mvisample.repository.SummaryRepository
-import aish.android.mvisample.ui.state.CovidStateEvent
+import aish.android.mvisample.ui.main.state.CovidStateEvent
 import aish.android.mvisample.util.AbsentLiveData
 import aish.android.mvisample.util.DataState
 import androidx.lifecycle.LiveData

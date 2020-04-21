@@ -1,10 +1,8 @@
 package aish.android.mvisample.ui.main
 
 import aish.android.mvisample.R
-import aish.android.mvisample.model.CountriesItem
 import aish.android.mvisample.ui.DataStateListener
-import aish.android.mvisample.ui.state.CovidStateEvent
-import aish.android.mvisample.util.DataState
+import aish.android.mvisample.ui.main.state.CovidStateEvent
 import aish.android.mvisample.viewmodel.MainDataViewModel
 import android.content.Context
 import android.os.Bundle
@@ -13,8 +11,6 @@ import android.view.*
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import androidx.recyclerview.widget.AsyncListDiffer
-import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.android.synthetic.main.fragment_maindata.*
 import java.lang.ClassCastException
